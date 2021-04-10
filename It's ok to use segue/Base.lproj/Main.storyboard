@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Как передать данные с экрана на экран?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGU-1m-SLM">
-                                <rect key="frame" x="16" y="16" width="343" height="73"/>
+                                <rect key="frame" x="50" y="100" width="275" height="73"/>
                                 <color key="backgroundColor" red="0.3630540967" green="0.77973872420000001" blue="0.98042041059999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="73" id="16z-Cm-1bP"/>
@@ -32,21 +32,22 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🧐" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zai-tL-EEY">
-                                <rect key="frame" x="150" y="97" width="75" height="84"/>
+                                <rect key="frame" x="284" y="181" width="75" height="84"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="84" id="Zr1-A9-6XY"/>
-                                    <constraint firstAttribute="width" constant="75" id="nmR-ET-6Js"/>
+                                    <constraint firstAttribute="width" constant="75" id="baM-E9-ok6"/>
+                                    <constraint firstAttribute="height" constant="84" id="mgc-CG-SAm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="1VC-Hu-3YJ">
-                                <rect key="frame" x="16" y="248" width="343" height="170"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="1VC-Hu-3YJ">
+                                <rect key="frame" x="16" y="392" width="343" height="230"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gp4-ST-Kvh">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="34"/>
                                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Вперед с segues">
                                             <color key="titleColor" systemColor="systemBackgroundColor"/>
                                         </state>
@@ -57,8 +58,9 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgX-CS-nrl">
-                                        <rect key="frame" x="0.0" y="35" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="49" width="343" height="34"/>
                                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Вперед без segues">
                                             <color key="titleColor" systemColor="systemBackgroundColor"/>
                                         </state>
@@ -69,8 +71,9 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gk0-AN-ghY">
-                                        <rect key="frame" x="0.0" y="70" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="98" width="343" height="34"/>
                                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Назад через unwind segue">
                                             <color key="titleColor" systemColor="systemBackgroundColor"/>
                                         </state>
@@ -81,8 +84,9 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cqz-cb-G5x">
-                                        <rect key="frame" x="0.0" y="105" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="147" width="343" height="34"/>
                                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Назад через делегата">
                                             <color key="titleColor" systemColor="systemBackgroundColor"/>
                                         </state>
@@ -93,8 +97,9 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGu-PK-w2q">
-                                        <rect key="frame" x="0.0" y="140" width="343" height="30"/>
+                                        <rect key="frame" x="0.0" y="196" width="343" height="34"/>
                                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Назад через замыкание">
                                             <color key="titleColor" systemColor="systemBackgroundColor"/>
                                         </state>
@@ -106,18 +111,57 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😌" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0GN-zg-xLU">
+                                <rect key="frame" x="16" y="273" width="75" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="S81-6k-NId"/>
+                                    <constraint firstAttribute="width" constant="75" id="shf-aZ-2pD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Очень просто! Нажимай↓" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dF5-Pf-5Qv">
+                                <rect key="frame" x="96" y="279" width="229" height="73"/>
+                                <color key="backgroundColor" red="1" green="0.59858620139999996" blue="0.70511888990000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="O5Y-c3-64c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Данные" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmi-4q-7wA">
+                                <rect key="frame" x="151.5" y="211" width="72" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="1VC-Hu-3YJ" firstAttribute="top" secondItem="Zai-tL-EEY" secondAttribute="bottom" constant="67" id="2b7-Ev-uMN"/>
-                            <constraint firstItem="Zai-tL-EEY" firstAttribute="top" secondItem="yGU-1m-SLM" secondAttribute="bottom" constant="8" symbolic="YES" id="Cyc-iL-9BY"/>
+                            <constraint firstItem="dF5-Pf-5Qv" firstAttribute="leading" secondItem="0GN-zg-xLU" secondAttribute="trailing" constant="5" id="6yp-IX-TDI"/>
+                            <constraint firstItem="Fmi-4q-7wA" firstAttribute="top" secondItem="yGU-1m-SLM" secondAttribute="bottom" constant="38" id="8eT-mK-CXJ"/>
+                            <constraint firstItem="Zai-tL-EEY" firstAttribute="leading" secondItem="Fmi-4q-7wA" secondAttribute="trailing" constant="60.5" id="GcN-Ad-ivI"/>
+                            <constraint firstItem="0GN-zg-xLU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="H6o-ns-sqz"/>
+                            <constraint firstItem="Zai-tL-EEY" firstAttribute="top" secondItem="yGU-1m-SLM" secondAttribute="bottom" constant="8" symbolic="YES" id="HPs-kz-8ww"/>
                             <constraint firstItem="1VC-Hu-3YJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KTk-0t-G0k"/>
-                            <constraint firstItem="yGU-1m-SLM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="h0y-qs-DhD"/>
-                            <constraint firstItem="yGU-1m-SLM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="oEi-pk-FC7"/>
-                            <constraint firstItem="Zai-tL-EEY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pyY-9m-lrp"/>
+                            <constraint firstItem="0GN-zg-xLU" firstAttribute="top" secondItem="Zai-tL-EEY" secondAttribute="bottom" constant="8" symbolic="YES" id="Rj8-qW-PZp"/>
+                            <constraint firstItem="Fmi-4q-7wA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TQW-FF-2pp"/>
+                            <constraint firstItem="dF5-Pf-5Qv" firstAttribute="top" secondItem="Zai-tL-EEY" secondAttribute="bottom" constant="14" id="akA-dw-cDx"/>
+                            <constraint firstItem="yGU-1m-SLM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="h0y-qs-DhD"/>
+                            <constraint firstItem="yGU-1m-SLM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="oEi-pk-FC7"/>
+                            <constraint firstItem="1VC-Hu-3YJ" firstAttribute="top" secondItem="dF5-Pf-5Qv" secondAttribute="bottom" constant="40" id="pt0-Zx-Pb7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1VC-Hu-3YJ" secondAttribute="trailing" constant="16" id="t9j-pv-H1U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zai-tL-EEY" secondAttribute="trailing" constant="16" id="u3q-f5-AYb"/>
                             <constraint firstItem="yGU-1m-SLM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u7h-mK-qRs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dF5-Pf-5Qv" secondAttribute="trailing" constant="50" id="uMK-6H-Owf"/>
                         </constraints>
                     </view>
                 </viewController>
