@@ -136,24 +136,15 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Данные" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmi-4q-7wA">
-                                <rect key="frame" x="151.5" y="211" width="72" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="dF5-Pf-5Qv" firstAttribute="leading" secondItem="0GN-zg-xLU" secondAttribute="trailing" constant="5" id="6yp-IX-TDI"/>
-                            <constraint firstItem="Fmi-4q-7wA" firstAttribute="top" secondItem="yGU-1m-SLM" secondAttribute="bottom" constant="38" id="8eT-mK-CXJ"/>
-                            <constraint firstItem="Zai-tL-EEY" firstAttribute="leading" secondItem="Fmi-4q-7wA" secondAttribute="trailing" constant="60.5" id="GcN-Ad-ivI"/>
                             <constraint firstItem="0GN-zg-xLU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="H6o-ns-sqz"/>
                             <constraint firstItem="Zai-tL-EEY" firstAttribute="top" secondItem="yGU-1m-SLM" secondAttribute="bottom" constant="8" symbolic="YES" id="HPs-kz-8ww"/>
                             <constraint firstItem="1VC-Hu-3YJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KTk-0t-G0k"/>
                             <constraint firstItem="0GN-zg-xLU" firstAttribute="top" secondItem="Zai-tL-EEY" secondAttribute="bottom" constant="8" symbolic="YES" id="Rj8-qW-PZp"/>
-                            <constraint firstItem="Fmi-4q-7wA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TQW-FF-2pp"/>
                             <constraint firstItem="dF5-Pf-5Qv" firstAttribute="top" secondItem="Zai-tL-EEY" secondAttribute="bottom" constant="14" id="akA-dw-cDx"/>
                             <constraint firstItem="yGU-1m-SLM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="h0y-qs-DhD"/>
                             <constraint firstItem="yGU-1m-SLM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="oEi-pk-FC7"/>
@@ -169,6 +160,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1574" y="108"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="t3f-o8-b48">
+            <objects>
+                <viewController id="ePt-dO-N5F" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gXU-dO-BcZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="792-lo-Lej">
+                                <rect key="frame" x="16" y="242" width="343" height="183"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👨‍🎓" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9t-4O-waW">
+                                        <rect key="frame" x="134" y="0.0" width="75" height="84"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="qmj-eo-V4U"/>
+                                            <constraint firstAttribute="height" constant="84" id="uFe-Gz-eBt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Добро пожаловать на 3 экран! Если вы все сделали правильно, ваши данные будут ниже ↓" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4a-iZ-EWZ">
+                                        <rect key="frame" x="13" y="99" width="317" height="84"/>
+                                        <color key="backgroundColor" red="0.3630540967" green="0.77973872420000001" blue="0.98042041059999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="73" id="ZeL-vp-NUv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Место для данных" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmi-4q-7wA">
+                                <rect key="frame" x="103" y="526" width="169.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8oF-4A-7B3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="792-lo-Lej" firstAttribute="centerY" secondItem="gXU-dO-BcZ" secondAttribute="centerY" id="4Sc-8N-DEO"/>
+                            <constraint firstAttribute="trailing" secondItem="792-lo-Lej" secondAttribute="trailing" constant="16" id="64S-yQ-VbV"/>
+                            <constraint firstItem="792-lo-Lej" firstAttribute="leading" secondItem="gXU-dO-BcZ" secondAttribute="leading" constant="16" id="J8j-b3-dd0"/>
+                            <constraint firstItem="792-lo-Lej" firstAttribute="centerX" secondItem="gXU-dO-BcZ" secondAttribute="centerX" id="Jou-ZP-GKC"/>
+                            <constraint firstItem="Fmi-4q-7wA" firstAttribute="centerX" secondItem="gXU-dO-BcZ" secondAttribute="centerX" id="nWm-OH-h9z"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zhr-Gv-umt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2456.8000000000002" y="106.59670164917542"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Tah-nK-wjl">
