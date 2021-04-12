@@ -185,9 +185,6 @@
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Добро пожаловать на 3 экран! Если вы все сделали правильно, ваши данные будут ниже ↓" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4a-iZ-EWZ">
                                         <rect key="frame" x="13" y="99" width="317" height="84"/>
                                         <color key="backgroundColor" red="0.3630540967" green="0.77973872420000001" blue="0.98042041059999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="73" id="ZeL-vp-NUv"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                         <color key="textColor" systemColor="systemBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -199,7 +196,7 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Место для данных" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmi-4q-7wA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Место для данных" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmi-4q-7wA">
                                 <rect key="frame" x="103" y="526" width="169.5" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -214,6 +211,8 @@
                             <constraint firstItem="792-lo-Lej" firstAttribute="leading" secondItem="gXU-dO-BcZ" secondAttribute="leading" constant="16" id="J8j-b3-dd0"/>
                             <constraint firstItem="792-lo-Lej" firstAttribute="centerX" secondItem="gXU-dO-BcZ" secondAttribute="centerX" id="Jou-ZP-GKC"/>
                             <constraint firstItem="Fmi-4q-7wA" firstAttribute="centerX" secondItem="gXU-dO-BcZ" secondAttribute="centerX" id="nWm-OH-h9z"/>
+                            <constraint firstItem="Fmi-4q-7wA" firstAttribute="top" secondItem="a4a-iZ-EWZ" secondAttribute="bottom" constant="101" id="v6l-Jd-qMe"/>
+                            <constraint firstItem="Fmi-4q-7wA" firstAttribute="centerX" secondItem="gXU-dO-BcZ" secondAttribute="centerX" id="wV0-ZO-hf6"/>
                         </constraints>
                     </view>
                 </viewController>
