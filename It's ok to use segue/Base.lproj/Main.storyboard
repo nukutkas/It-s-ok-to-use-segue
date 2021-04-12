@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="It_s_ok_to_use_segue" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="MainViewController" customModule="It_s_ok_to_use_segue" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -200,10 +200,10 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Место для данных" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmi-4q-7wA">
-                                <rect key="frame" x="103" y="526" width="169.5" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Место для данных" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmi-4q-7wA">
+                                <rect key="frame" x="16" y="526" width="343" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" red="0.65750293932650461" green="0.38812148969135229" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -212,11 +212,11 @@
                         <constraints>
                             <constraint firstItem="792-lo-Lej" firstAttribute="centerY" secondItem="gXU-dO-BcZ" secondAttribute="centerY" id="4Sc-8N-DEO"/>
                             <constraint firstAttribute="trailing" secondItem="792-lo-Lej" secondAttribute="trailing" constant="16" id="64S-yQ-VbV"/>
+                            <constraint firstItem="8oF-4A-7B3" firstAttribute="trailing" secondItem="Fmi-4q-7wA" secondAttribute="trailing" constant="16" id="BUM-w4-ElG"/>
                             <constraint firstItem="792-lo-Lej" firstAttribute="leading" secondItem="gXU-dO-BcZ" secondAttribute="leading" constant="16" id="J8j-b3-dd0"/>
                             <constraint firstItem="792-lo-Lej" firstAttribute="centerX" secondItem="gXU-dO-BcZ" secondAttribute="centerX" id="Jou-ZP-GKC"/>
-                            <constraint firstItem="Fmi-4q-7wA" firstAttribute="centerX" secondItem="gXU-dO-BcZ" secondAttribute="centerX" id="nWm-OH-h9z"/>
+                            <constraint firstItem="Fmi-4q-7wA" firstAttribute="leading" secondItem="8oF-4A-7B3" secondAttribute="leading" constant="16" id="Xrz-uv-Lay"/>
                             <constraint firstItem="Fmi-4q-7wA" firstAttribute="top" secondItem="a4a-iZ-EWZ" secondAttribute="bottom" constant="101" id="v6l-Jd-qMe"/>
-                            <constraint firstItem="Fmi-4q-7wA" firstAttribute="centerX" secondItem="gXU-dO-BcZ" secondAttribute="centerX" id="wV0-ZO-hf6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gme-Q8-j1G"/>

@@ -8,6 +8,7 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    
     var performData = ""
     
     @IBOutlet var dataLabel: UILabel!
@@ -15,7 +16,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        dataLabel.text = performData
     }
     
 }
