@@ -56,6 +56,9 @@
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="ePt-dO-N5F" kind="show" identifier="performSegue" id="jXX-eb-7bG"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgX-CS-nrl">
                                         <rect key="frame" x="0.0" y="49" width="343" height="34"/>
@@ -145,6 +148,7 @@
                             <constraint firstItem="Zai-tL-EEY" firstAttribute="top" secondItem="yGU-1m-SLM" secondAttribute="bottom" constant="8" symbolic="YES" id="HPs-kz-8ww"/>
                             <constraint firstItem="1VC-Hu-3YJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KTk-0t-G0k"/>
                             <constraint firstItem="0GN-zg-xLU" firstAttribute="top" secondItem="Zai-tL-EEY" secondAttribute="bottom" constant="8" symbolic="YES" id="Rj8-qW-PZp"/>
+                            <constraint firstItem="Zai-tL-EEY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="VEa-fL-292"/>
                             <constraint firstItem="dF5-Pf-5Qv" firstAttribute="top" secondItem="Zai-tL-EEY" secondAttribute="bottom" constant="14" id="akA-dw-cDx"/>
                             <constraint firstItem="yGU-1m-SLM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="h0y-qs-DhD"/>
                             <constraint firstItem="yGU-1m-SLM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="oEi-pk-FC7"/>
@@ -166,11 +170,11 @@
             <objects>
                 <viewController id="ePt-dO-N5F" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gXU-dO-BcZ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="792-lo-Lej">
-                                <rect key="frame" x="16" y="242" width="343" height="183"/>
+                                <rect key="frame" x="16" y="232" width="343" height="183"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👨‍🎓" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9t-4O-waW">
                                         <rect key="frame" x="134" y="0.0" width="75" height="84"/>
@@ -197,7 +201,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Место для данных" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmi-4q-7wA">
-                                <rect key="frame" x="103" y="526" width="169.5" height="24"/>
+                                <rect key="frame" x="103" y="516" width="169.5" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -215,6 +219,7 @@
                             <constraint firstItem="Fmi-4q-7wA" firstAttribute="centerX" secondItem="gXU-dO-BcZ" secondAttribute="centerX" id="wV0-ZO-hf6"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="gme-Q8-j1G"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zhr-Gv-umt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
