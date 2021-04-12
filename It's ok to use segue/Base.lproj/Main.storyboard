@@ -165,16 +165,16 @@
             </objects>
             <point key="canvasLocation" x="1574" y="108"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="t3f-o8-b48">
             <objects>
-                <viewController id="ePt-dO-N5F" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="ePt-dO-N5F" customClass="SecondViewController" customModule="It_s_ok_to_use_segue" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gXU-dO-BcZ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="792-lo-Lej">
-                                <rect key="frame" x="16" y="232" width="343" height="183"/>
+                                <rect key="frame" x="16" y="242" width="343" height="183"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👨‍🎓" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9t-4O-waW">
                                         <rect key="frame" x="134" y="0.0" width="75" height="84"/>
@@ -201,7 +201,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Место для данных" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fmi-4q-7wA">
-                                <rect key="frame" x="103" y="516" width="169.5" height="24"/>
+                                <rect key="frame" x="103" y="526" width="169.5" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -220,6 +220,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gme-Q8-j1G"/>
+                    <connections>
+                        <outlet property="dataLabel" destination="Fmi-4q-7wA" id="7dI-zV-9NN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zhr-Gv-umt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
