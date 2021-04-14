@@ -160,6 +160,9 @@
                             <constraint firstItem="VHT-O0-2J6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="v2q-bj-p7v"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dataLabel" destination="VHT-O0-2J6" id="U8I-Gc-ebc"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="3452" y="107.49625187406298"/>
