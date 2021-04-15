@@ -19,4 +19,8 @@ class SecondViewController: UIViewController {
         dataLabel.text = performData
     }
     
+    @IBAction func backAction() {
+        dismiss(animated: true)
+    }
+    
 }
