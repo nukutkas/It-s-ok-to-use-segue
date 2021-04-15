@@ -7,8 +7,14 @@
 
 import UIKit
 
+protocol MainViewControllerDelegate {
+    func update(text: String)
+}
+
 class MainViewController: UIViewController {
     @IBOutlet var dataLabel: UILabel!
+    
+    var delegate: MainViewControllerDelegate!
     
     override func viewDidLoad() {
         super.viewDidLoad()
