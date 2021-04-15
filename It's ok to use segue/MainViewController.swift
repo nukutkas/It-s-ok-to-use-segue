@@ -18,8 +18,13 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
+    @IBAction func delegateButtonPressed(_ sender: UIButton) {
+        delegate.update(text: "Победа! \(dataLabel.text ?? "")")
+        dismiss(animated: true)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard segue.identifier == "performSegue" else { return }
         guard  let secondVC = segue.destination as? SecondViewController else { return }

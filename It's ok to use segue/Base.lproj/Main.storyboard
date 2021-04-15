@@ -88,6 +88,9 @@
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="delegateButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MPq-We-Drp"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGu-PK-w2q">
                                         <rect key="frame" x="0.0" y="147" width="343" height="34"/>

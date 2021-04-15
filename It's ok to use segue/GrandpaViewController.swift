@@ -21,7 +21,7 @@ class GrandpaViewController: UIViewController {
     @IBAction func unwind(segue: UIStoryboardSegue) {
         
         guard let mainVC = segue.source as? MainViewController else { return }
-        grandpaDataLabel.text = mainVC.dataLabel.text
+        grandpaDataLabel.text = "Ура! \(mainVC.dataLabel.text ?? "")"
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
