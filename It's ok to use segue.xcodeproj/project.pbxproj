@@ -41,6 +41,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E58C09D3262A2661003E22D2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5857D1726277FEC007F289F /* GrandpaViewController.swift */,
+				E5F70F87261F704400550F39 /* MainViewController.swift */,
+				E5E146162624E348001CE4CF /* SecondViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E58C09D6262A2688003E22D2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E5F70F8C261F704500550F39 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E58C09D7262A26B5003E22D2 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F70F83261F704400550F39 /* AppDelegate.swift */,
+				E5F70F85261F704400550F39 /* SceneDelegate.swift */,
+				E5F70F8E261F704500550F39 /* LaunchScreen.storyboard */,
+				E5F70F91261F704500550F39 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E58C09D9262A26C6003E22D2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E5F70F89261F704400550F39 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		E5F70F77261F704400550F39 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +97,10 @@
 		E5F70F82261F704400550F39 /* It's ok to use segue */ = {
 			isa = PBXGroup;
 			children = (
-				E5F70F83261F704400550F39 /* AppDelegate.swift */,
-				E5F70F85261F704400550F39 /* SceneDelegate.swift */,
-				E5F70F89261F704400550F39 /* Main.storyboard */,
-				E5857D1726277FEC007F289F /* GrandpaViewController.swift */,
-				E5F70F87261F704400550F39 /* MainViewController.swift */,
-				E5E146162624E348001CE4CF /* SecondViewController.swift */,
-				E5F70F8C261F704500550F39 /* Assets.xcassets */,
-				E5F70F8E261F704500550F39 /* LaunchScreen.storyboard */,
-				E5F70F91261F704500550F39 /* Info.plist */,
+				E58C09D3262A2661003E22D2 /* ViewControllers */,
+				E58C09D9262A26C6003E22D2 /* Storyboards */,
+				E58C09D7262A26B5003E22D2 /* Supporting files */,
+				E58C09D6262A2688003E22D2 /* Sources */,
 			);
 			path = "It's ok to use segue";
 			sourceTree = "<group>";
@@ -296,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4HK5Y82J4;
-				INFOPLIST_FILE = "It's ok to use segue/Info.plist";
+				INFOPLIST_FILE = "It's ok to use segue/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4HK5Y82J4;
-				INFOPLIST_FILE = "It's ok to use segue/Info.plist";
+				INFOPLIST_FILE = "It's ok to use segue/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
