@@ -16,10 +16,6 @@ class MainViewController: UIViewController {
     
     var delegate: MainViewControllerDelegate!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
     @IBAction func delegateButtonPressed(_ sender: UIButton) {
         delegate.update(text: "Победа! \(dataLabel.text ?? "")")
         dismiss(animated: true)
@@ -29,9 +25,6 @@ class MainViewController: UIViewController {
         guard segue.identifier == "performSegue" else { return }
         guard  let secondVC = segue.destination as? SecondViewController else { return }
         secondVC.performData = "Данные получены! \(dataLabel.text ?? "No data" ) "
-        
-        
     }
-
 }
 
