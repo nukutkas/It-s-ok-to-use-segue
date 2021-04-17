@@ -11,13 +11,6 @@ class GrandpaViewController: UIViewController {
     
     @IBOutlet var grandpaDataLabel: UILabel!
     
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
-    
-
     @IBAction func unwind(segue: UIStoryboardSegue) {
         
         guard let mainVC = segue.source as? MainViewController else { return }
