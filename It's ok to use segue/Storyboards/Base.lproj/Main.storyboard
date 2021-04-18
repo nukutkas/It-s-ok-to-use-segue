@@ -104,6 +104,9 @@
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="closureButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h3F-x8-Xp3"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>

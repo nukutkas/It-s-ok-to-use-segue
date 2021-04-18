@@ -20,6 +20,9 @@ class GrandpaViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let mainVC = segue.destination as? MainViewController else { return }
         mainVC.delegate = self
+        mainVC.closure = { [weak self] text in
+                  self?.grandpaDataLabel.text = text
+              }
     }
 }
 extension GrandpaViewController: MainViewControllerDelegate {
