@@ -9,9 +9,9 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
-    var performData = ""
-    
     @IBOutlet var dataLabel: UILabel!
+    
+    var performData = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,5 +22,4 @@ class SecondViewController: UIViewController {
     @IBAction func backAction() {
         dismiss(animated: true)
     }
-    
 }

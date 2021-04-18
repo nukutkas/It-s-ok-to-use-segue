@@ -12,7 +12,6 @@ class GrandpaViewController: UIViewController {
     @IBOutlet var grandpaDataLabel: UILabel!
     
     @IBAction func unwind(segue: UIStoryboardSegue) {
-        
         guard let mainVC = segue.source as? MainViewController else { return }
         grandpaDataLabel.text = "Ура! \(mainVC.dataLabel.text ?? "")"
     }
