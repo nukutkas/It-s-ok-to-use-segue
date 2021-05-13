@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Как передать данные с экрана на экран?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGU-1m-SLM">
-                                <rect key="frame" x="50" y="126.5" width="275" height="73"/>
+                                <rect key="frame" x="50" y="156.5" width="275" height="73"/>
                                 <color key="backgroundColor" red="0.3630540967" green="0.77973872420000001" blue="0.98042041059999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="73" id="16z-Cm-1bP"/>
@@ -32,7 +32,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🧐" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zai-tL-EEY">
-                                <rect key="frame" x="284" y="207.5" width="75" height="84"/>
+                                <rect key="frame" x="284" y="237.5" width="75" height="84"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="baM-E9-ok6"/>
                                     <constraint firstAttribute="height" constant="84" id="mgc-CG-SAm"/>
@@ -42,7 +42,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="1VC-Hu-3YJ">
-                                <rect key="frame" x="16" y="418.5" width="343" height="181"/>
+                                <rect key="frame" x="16" y="448.5" width="343" height="181"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gp4-ST-Kvh">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="34"/>
@@ -111,7 +111,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😌" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0GN-zg-xLU">
-                                <rect key="frame" x="16" y="299.5" width="75" height="84"/>
+                                <rect key="frame" x="16" y="329.5" width="75" height="84"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="84" id="S81-6k-NId"/>
                                     <constraint firstAttribute="width" constant="75" id="shf-aZ-2pD"/>
@@ -121,7 +121,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Очень просто! Нажимай↓" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dF5-Pf-5Qv">
-                                <rect key="frame" x="96" y="305.5" width="229" height="73"/>
+                                <rect key="frame" x="96" y="335.5" width="229" height="73"/>
                                 <color key="backgroundColor" red="1" green="0.59858620139999996" blue="0.70511888990000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="73" id="O5Y-c3-64c"/>
@@ -135,8 +135,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Я знаю, где спрятано бабушкино варенье!&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHT-O0-2J6">
-                                <rect key="frame" x="16" y="40" width="343" height="53"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Я знаю, где спрятано бабушкино варенье!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHT-O0-2J6">
+                                <rect key="frame" x="16" y="70" width="343" height="53"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -147,7 +147,7 @@
                         <constraints>
                             <constraint firstItem="dF5-Pf-5Qv" firstAttribute="leading" secondItem="0GN-zg-xLU" secondAttribute="trailing" constant="5" id="6yp-IX-TDI"/>
                             <constraint firstItem="yGU-1m-SLM" firstAttribute="top" secondItem="VHT-O0-2J6" secondAttribute="bottom" constant="33.5" id="G5b-rV-Pm2"/>
-                            <constraint firstItem="VHT-O0-2J6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="H0s-dE-s5G"/>
+                            <constraint firstItem="VHT-O0-2J6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="H0s-dE-s5G"/>
                             <constraint firstItem="0GN-zg-xLU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="H6o-ns-sqz"/>
                             <constraint firstItem="Zai-tL-EEY" firstAttribute="top" secondItem="yGU-1m-SLM" secondAttribute="bottom" constant="8" symbolic="YES" id="HPs-kz-8ww"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VHT-O0-2J6" secondAttribute="trailing" constant="16" id="Htm-2V-e1L"/>
@@ -256,7 +256,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOx-Jx-nQm">
-                                <rect key="frame" x="284" y="305.5" width="75" height="84"/>
+                                <rect key="frame" x="284" y="305" width="75" height="84"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="0Sg-bJ-zvr"/>
                                     <constraint firstAttribute="height" constant="84" id="hz2-a4-eD5"/>
@@ -280,6 +280,7 @@
                                 <color key="backgroundColor" red="0.58282423019999996" green="0.43760794400000003" blue="0.29016456010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="73" id="aaS-l6-wn1"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="73" id="qSo-Dd-MhX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
@@ -291,8 +292,11 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Деда, изучаю передачу данных между экранами. Если у меня получится , можно я передам их тебе?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74t-JZ-Syo">
-                                <rect key="frame" x="16" y="200" width="343" height="95.5"/>
+                                <rect key="frame" x="16" y="200" width="343" height="95"/>
                                 <color key="backgroundColor" red="0.3630540967" green="0.77973872420000001" blue="0.98042041059999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="z8u-bB-FBw"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -303,7 +307,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👴🏻" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZr-V4-rdd">
-                                <rect key="frame" x="16" y="409" width="75" height="84"/>
+                                <rect key="frame" x="16" y="408.5" width="75" height="84"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="5Nh-Lf-fV4"/>
                                     <constraint firstAttribute="height" constant="84" id="7gO-DI-gWg"/>
@@ -313,7 +317,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Конечно! Клад их сюда↓" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6A0-Of-rJg">
-                                <rect key="frame" x="111.5" y="414.5" width="247.5" height="73"/>
+                                <rect key="frame" x="111.5" y="414" width="247.5" height="73"/>
                                 <color key="backgroundColor" red="0.58282423019999996" green="0.43760794400000003" blue="0.29016456010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="73" id="raX-nA-4ah"/>
@@ -336,6 +340,9 @@
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gcc-Ek-NCs">
                                 <rect key="frame" x="16" y="609" width="343" height="49.5"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49.5" id="ScJ-Ow-guA"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Вперед к знаниям!">
                                     <color key="titleColor" systemColor="systemBackgroundColor"/>
@@ -350,7 +357,10 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="📭" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="vFH-8L-h5f">
-                                <rect key="frame" x="16" y="500" width="343" height="84"/>
+                                <rect key="frame" x="16" y="499.5" width="343" height="84.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="84" id="rUN-5i-ZAe"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

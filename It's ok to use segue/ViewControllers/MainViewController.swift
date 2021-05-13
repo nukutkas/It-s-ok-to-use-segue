@@ -30,7 +30,7 @@ class MainViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard segue.identifier == "performSegue" else { return }
         guard  let secondVC = segue.destination as? SecondViewController else { return }
-        secondVC.performData = "Данные получены! \(dataLabel.text ?? "No data" ) "
+        secondVC.performData = "Данные получены!\n \(dataLabel.text ?? "No data" ) "
     }
 }
 

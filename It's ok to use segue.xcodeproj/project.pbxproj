@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E5857D1826277FEC007F289F /* GrandpaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5857D1726277FEC007F289F /* GrandpaViewController.swift */; };
+		E5CD352B264D315B000E9BF6 /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD3528264D315B000E9BF6 /* Screenshot03.png */; };
+		E5CD352C264D315B000E9BF6 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD3529264D315B000E9BF6 /* Screenshot01.png */; };
+		E5CD352D264D315B000E9BF6 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD352A264D315B000E9BF6 /* Screenshot02.png */; };
 		E5E146172624E348001CE4CF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E146162624E348001CE4CF /* SecondViewController.swift */; };
 		E5F70F84261F704400550F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F70F83261F704400550F39 /* AppDelegate.swift */; };
 		E5F70F86261F704400550F39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F70F85261F704400550F39 /* SceneDelegate.swift */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		E5857D1726277FEC007F289F /* GrandpaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandpaViewController.swift; sourceTree = "<group>"; };
+		E5CD3528264D315B000E9BF6 /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
+		E5CD3529264D315B000E9BF6 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		E5CD352A264D315B000E9BF6 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 		E5E146162624E348001CE4CF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E5F70F80261F704400550F39 /* It's ok to use segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "It's ok to use segue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F70F83261F704400550F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +84,16 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		E5CD3526264D2704000E9BF6 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				E5CD3529264D315B000E9BF6 /* Screenshot01.png */,
+				E5CD352A264D315B000E9BF6 /* Screenshot02.png */,
+				E5CD3528264D315B000E9BF6 /* Screenshot03.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		E5F70F77261F704400550F39 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +113,7 @@
 		E5F70F82261F704400550F39 /* It's ok to use segue */ = {
 			isa = PBXGroup;
 			children = (
+				E5CD3526264D2704000E9BF6 /* Screenshots */,
 				E58C09D3262A2661003E22D2 /* ViewControllers */,
 				E58C09D9262A26C6003E22D2 /* Storyboards */,
 				E58C09D7262A26B5003E22D2 /* Supporting files */,
@@ -162,9 +179,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5CD352B264D315B000E9BF6 /* Screenshot03.png in Resources */,
 				E5F70F90261F704500550F39 /* LaunchScreen.storyboard in Resources */,
 				E5F70F8D261F704500550F39 /* Assets.xcassets in Resources */,
+				E5CD352C264D315B000E9BF6 /* Screenshot01.png in Resources */,
 				E5F70F8B261F704400550F39 /* Main.storyboard in Resources */,
+				E5CD352D264D315B000E9BF6 /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
