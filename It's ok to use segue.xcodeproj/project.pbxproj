@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E5857D1826277FEC007F289F /* GrandpaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5857D1726277FEC007F289F /* GrandpaViewController.swift */; };
-		E5CD352C264D315B000E9BF6 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD3529264D315B000E9BF6 /* Screenshot01.png */; };
+		E5998194264E7350001447F7 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5998193264E7350001447F7 /* Screenshot01.png */; };
 		E5CD352D264D315B000E9BF6 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD352A264D315B000E9BF6 /* Screenshot02.png */; };
 		E5CD3531264D3304000E9BF6 /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = E5CD3530264D3304000E9BF6 /* Screenshot03.png */; };
 		E5CD3534264D3423000E9BF6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E5CD3533264D3423000E9BF6 /* README.md */; };
@@ -23,7 +23,7 @@
 
 /* Begin PBXFileReference section */
 		E5857D1726277FEC007F289F /* GrandpaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandpaViewController.swift; sourceTree = "<group>"; };
-		E5CD3529264D315B000E9BF6 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		E5998193264E7350001447F7 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		E5CD352A264D315B000E9BF6 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 		E5CD3530264D3304000E9BF6 /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
 		E5CD3533264D3423000E9BF6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		E5CD3526264D2704000E9BF6 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				E5CD3529264D315B000E9BF6 /* Screenshot01.png */,
+				E5998193264E7350001447F7 /* Screenshot01.png */,
 				E5CD352A264D315B000E9BF6 /* Screenshot02.png */,
 				E5CD3530264D3304000E9BF6 /* Screenshot03.png */,
 			);
@@ -185,8 +185,8 @@
 				E5F70F90261F704500550F39 /* LaunchScreen.storyboard in Resources */,
 				E5F70F8D261F704500550F39 /* Assets.xcassets in Resources */,
 				E5CD3531264D3304000E9BF6 /* Screenshot03.png in Resources */,
+				E5998194264E7350001447F7 /* Screenshot01.png in Resources */,
 				E5CD3534264D3423000E9BF6 /* README.md in Resources */,
-				E5CD352C264D315B000E9BF6 /* Screenshot01.png in Resources */,
 				E5F70F8B261F704400550F39 /* Main.storyboard in Resources */,
 				E5CD352D264D315B000E9BF6 /* Screenshot02.png in Resources */,
 			);

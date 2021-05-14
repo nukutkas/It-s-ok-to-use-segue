@@ -291,7 +291,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Деда, изучаю передачу данных между экранами. Если у меня получится , можно я передам их тебе?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74t-JZ-Syo">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Деда, изучаю передачу данных между экранами. Если у меня получится , можно я передам их тебе?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="74t-JZ-Syo">
                                 <rect key="frame" x="16" y="200" width="343" height="95"/>
                                 <color key="backgroundColor" red="0.3630540967" green="0.77973872420000001" blue="0.98042041059999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
