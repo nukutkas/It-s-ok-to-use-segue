@@ -1,5 +1,6 @@
 # It-s-ok-to-use-segue
-Funny app for testing pass data between view controllers.
+
+Funny app for practice pass data between view controllers.
 
 # Installation
 
